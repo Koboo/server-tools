@@ -71,7 +71,6 @@ function SetupFsTrim {
 function CleanUp {
     rm /etc/motd -f
     rm /etc/update-motd.d/* -R -f
-    rm ${TMP}/check-mk-agent.deb
     apt-get autoremove -y
 }
 
