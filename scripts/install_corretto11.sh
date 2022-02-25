@@ -19,6 +19,7 @@ function Install {
 
 function RunLastStep {
     rm -r /usr/share/corretto11/amazon-corretto-11.0.14.10.1-linux-x86/
+    rm -r /usr/share/corretto11.tar.gz
     update-alternatives --install /usr/bin/java java /usr/share/corretto11/bin/java 6
 }
 
