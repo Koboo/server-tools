@@ -12,3 +12,7 @@
 ### Install GraalVM
 
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/install_graalvm.sh)"`
+
+### Install Corretto 11
+
+`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/install_corretto11.sh)"`
