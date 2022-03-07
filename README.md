@@ -16,3 +16,7 @@
 ### Install Corretto 11
 
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/install_corretto11.sh)"`
+
+### Install Corretto 17
+
+`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/install_corretto17.sh)"`
