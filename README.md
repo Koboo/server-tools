@@ -1,22 +1,32 @@
 # Server Tools and Scripts
 
 
-### Setup
+## Setup
 
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/initial_setup.sh)"`
 
-### Cleanup 
+## Cleanup 
 
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/run_clean_up.sh)"`
 
-### Install GraalVM
+## Java Installation
 
-`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/install_graalvm.sh)"`
+#### Install GraalVM 11
 
-### Install Corretto 11
+`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh -i 1)"`
 
-`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/install_corretto11.sh)"`
+#### Install GraalVM 17
 
-### Install Corretto 17
+`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh -i 2)"`
 
-`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/install_corretto17.sh)"`
+#### Install Corretto 17
+
+`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh -i 3)"`
+
+#### Install OpenJDK 17
+
+`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh -i 4)"`
+
+#### Install OpenJDK 11
+
+`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh -i 5)"`
