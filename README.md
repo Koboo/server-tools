@@ -11,22 +11,26 @@
 
 ## Java Installation
 
+#### Script
+
+`wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh`
+
 #### Install GraalVM 11
 
-`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh -i 1)"`
+`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh)" '' -i 5`
 
 #### Install GraalVM 17
 
-`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh -i 2)"`
+`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh)" '' -i 2`
 
 #### Install Corretto 17
 
-`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh -i 3)"`
+`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh)" '' -i 3`
 
 #### Install OpenJDK 17
 
-`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh -i 4)"`
+`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh)" '' -i 4`
 
 #### Install OpenJDK 11
 
-`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh -i 5)"`
+`bash -c "$(wget -O - https://github.com/Koboo/server-tools/blob/main/scripts/java_mgmt.sh)" '' -i 5`
