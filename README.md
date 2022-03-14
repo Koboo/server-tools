@@ -9,6 +9,10 @@
 
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/run_clean_up.sh)"`
 
+## Benchmark
+
+`wget -qO- bench.sh | bash`
+
 ## Java Installation
 
 #### Script
