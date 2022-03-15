@@ -4,16 +4,6 @@ function RunChecks {
         echo "You are not root! Abort."
         exit
     fi
-    
-    # Debian 9
-    if lscpu | grep "Hypervisor vendor:     KVM"; then
-        VIRTUAL_HOST=true
-    fi
-    
-    # Debian 10
-    if lscpu | grep "Hypervisor vendor:   KVM"; then
-        VIRTUAL_HOST=true
-    fi
 }
 
 function CleanUp {
