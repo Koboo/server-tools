@@ -3,10 +3,15 @@
 ## Documentation
 * [Change Hostname](docu/CHANGE_HOSTNAME.md)
 * [Useful for Git](docu/USEFUL_GIT.md)
+* [bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
 
 ## Setup
 
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/initial_setup.sh)"`
+
+#### ToDo
+* [Timezone setting](https://linuxize.com/post/how-to-set-or-change-timezone-on-debian-10/)
+* Make Java and Cleanup Global commands through Initial setup
 
 ## Cleanup 
 
