@@ -3,7 +3,7 @@
 ## Documentation
 * [Change Hostname](docu/CHANGE_HOSTNAME.md)
 * [Useful for Git](docu/USEFUL_GIT.md)
-* [bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
+* [Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
 
 ## Setup
 
