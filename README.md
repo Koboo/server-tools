@@ -10,7 +10,7 @@
 
 ## Cleanup 
 
-`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/run_clean_up.sh)"`
+`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/clean_up.sh)"`
 
 ## Benchmark
 
