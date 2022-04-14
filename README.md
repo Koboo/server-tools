@@ -1,8 +1,8 @@
 # Server Tools and Scripts
 
 ## Documentation
-* [Change Hostname](CHANGE_HOSTNAME.md)
-* [Useful for Git](USEFUL_GIT.md)
+* [Change Hostname](docu/CHANGE_HOSTNAME.md)
+* [Useful for Git](docu/USEFUL_GIT.md)
 
 ## Setup
 
