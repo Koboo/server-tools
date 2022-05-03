@@ -29,8 +29,8 @@
 
 Available JDK Versions:
 
-* (-i 5) ``GraalVM 11``
-* (-i 4) ``GraalVM 17``
-* (-i 3) ``Corretto 17``
-* (-i 2) ``OpenJDK 17``
-* (-i 1) ``OpenJDK 11``
+* (5) ``GraalVM 11``
+* (4) ``GraalVM 17``
+* (3) ``Corretto 17``
+* (2) ``OpenJDK 17``
+* (1) ``OpenJDK 11``
