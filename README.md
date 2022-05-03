@@ -1,23 +1,23 @@
-# Server Tools and Scripts
+# // _Server Tools and Scripts_
 
-## Documentation
+## Links
 * [Change Hostname](docu/CHANGE_HOSTNAME.md)
 * [Useful for Git](docu/USEFUL_FOR_GIT.md)
 * [Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
 
-## Setup
+## Setup Debian 10/11 machines
 
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/initial_setup.sh)"`
 
-#### ToDo
+#### Future goals / ToDo
 * [Timezone setting](https://linuxize.com/post/how-to-set-or-change-timezone-on-debian-10/)
 * Make Java and Cleanup Global commands through Initial setup
 
-## Cleanup 
+## Cleanup Debian 10/11 machines
 
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/clean_up.sh)"`
 
-## Benchmark
+## Benchmark Debian 10/11 machines
 
 `wget -qO- bench.sh | bash`
 
@@ -27,22 +27,10 @@
 
 `wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/java_mgmt.sh`
 
-#### Install GraalVM 11
+Available JDK Versions:
 
-`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/java_mgmt.sh)" '' -i 5`
-
-#### Install GraalVM 17
-
-`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/java_mgmt.sh)" '' -i 2`
-
-#### Install Corretto 17
-
-`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/java_mgmt.sh)" '' -i 3`
-
-#### Install OpenJDK 17
-
-`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/java_mgmt.sh)" '' -i 4`
-
-#### Install OpenJDK 11
-
-`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/java_mgmt.sh)" '' -i 5`
+* (-i 5) ``GraalVM 11``
+* (-i 4) ``GraalVM 17``
+* (-i 3) ``Corretto 17``
+* (-i 2) ``OpenJDK 17``
+* (-i 1) ``OpenJDK 11``
