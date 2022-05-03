@@ -27,3 +27,15 @@ git config --global init.defaultBranch main
 ```bash
 git rm --cached <name>
 ```
+
+# Project-related User Credentials in commits
+
+```bash
+[projectDir]/.git/config
+```
+
+```bash
+[user]
+    name = Koboo
+    email = 14143908+Koboo@users.noreply.github.com
+```
