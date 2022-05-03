@@ -2,7 +2,7 @@
 
 ## Documentation
 * [Change Hostname](docu/CHANGE_HOSTNAME.md)
-* [Useful for Git](docu/USEFUL_GIT.md)
+* [Useful for Git](docu/USEFUL_FOR_GIT.md)
 * [Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
 
 ## Setup
