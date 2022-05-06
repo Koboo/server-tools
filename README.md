@@ -3,6 +3,7 @@
 ## Links
 * [Change Hostname](docu/CHANGE_HOSTNAME.md)
 * [Useful for Git](docu/USEFUL_FOR_GIT.md)
+* [Install Dropbox](docu/INSTALL_DROPBOX.md)
 * [Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
 
 ## Setup Debian 10/11 machines
