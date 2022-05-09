@@ -5,6 +5,7 @@
 * [Useful for Git](docu/USEFUL_FOR_GIT.md)
 * [Install Dropbox](docu/INSTALL_DROPBOX.md)
 * [Gradle](docu/GRADLE.md)
+* [JDK17](docu/JDK17.md)
 * [Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
 
 ## Setup Debian 10/11 machines
