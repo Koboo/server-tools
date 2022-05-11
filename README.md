@@ -6,6 +6,7 @@
 * [Install Dropbox](docu/INSTALL_DROPBOX.md)
 * [Gradle](docu/GRADLE.md)
 * [JDK17](docu/JDK17.md)
+* [Jarfix](docu/JAR_FIX.md)
 * [Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
 
 ## Setup Debian 10/11 machines
