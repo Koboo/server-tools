@@ -165,8 +165,8 @@ function showHelp {
     echo "    -s (Show all java versions and installation status)"
     echo "    -h (Show this help message)"
     echo "    -i [index] (Install a selected java version)"
-    echo "    -r [index] (Install a selected java version)"
-    echo "    -u [index] (Install a selected java version)"
+    echo "    -r [index] (Uninstall a installed java version)"
+    echo "    -u [index] (Update command to a installed java version)"
     echo ""
     showVersions
 }
