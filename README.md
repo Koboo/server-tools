@@ -29,7 +29,7 @@
 
 #### Script
 
-`wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/java_mgmt.sh`
+`wget - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/java_mgmt.sh`
 
 Available JDK Versions:
 
