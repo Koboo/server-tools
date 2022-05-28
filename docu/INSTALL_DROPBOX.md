@@ -22,3 +22,7 @@ After success message, press ``CTRL + C``
 ``sudo chmod +x /usr/local/bin/dropbox``
 
 ``dropbox start``
+
+# Start detect Script
+
+``wget - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/dropbox_detect.sh | chmod 777 dropbox_detect.sh``
