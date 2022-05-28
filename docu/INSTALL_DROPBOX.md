@@ -25,4 +25,4 @@ After success message, press ``CTRL + C``
 
 # Start detect Script
 
-``wget - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/dropbox_detect.sh | chmod 777 dropbox_detect.sh``
+``wget - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/dropbox_detect.sh``
