@@ -8,6 +8,7 @@
 * [JDK17](docu/JDK17.md)
 * [Jarfix](docu/JAR_FIX.md)
 * [Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
+* [EditorConfig](.editorconfig)
 
 ## Setup Debian 10/11 machines
 
