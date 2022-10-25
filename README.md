@@ -1,13 +1,15 @@
 # // _Server Tools and Scripts_
 
 ## Links
-* [Change Hostname](docu/CHANGE_HOSTNAME.md)
-* [Useful for Git](docu/USEFUL_FOR_GIT.md)
+* [Git Paper](docu/USEFUL_FOR_GIT.md)
 * [Install Dropbox](docu/INSTALL_DROPBOX.md)
-* [Gradle](docu/GRADLE.md)
-* [JDK17](docu/JDK17.md)
+* [Gradle Paper](docu/GRADLE.md)
+* [JDK17 Paper](docu/JDK17.md)
 * [Jarfix](docu/JAR_FIX.md)
 * [Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
+* [Change Hostname](docu/CHANGE_HOSTNAME.md)
+
+## Files
 * [EditorConfig](.editorconfig)
 
 ## Setup Debian 10/11 machines
