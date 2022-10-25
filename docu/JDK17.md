@@ -1,6 +1,10 @@
 # Dirty workaround to modify `private final` Fields in JDK17
 
-Quick and dirty FieldHelper
+This utility class will only work with the following start arguments:
+
+```java --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED -jar {jar-name}.jar```
+
+*Source-Code:*
 ```java
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
@@ -29,5 +33,3 @@ public final class FieldHelper {
 
 }
 ```
-Even dirtier start arguments.
-`java --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED -jar {jar-name}.jar`
