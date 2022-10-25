@@ -10,15 +10,12 @@
 * [Change Hostname](docu/CHANGE_HOSTNAME.md)
 
 ## Files
-* [EditorConfig](.editorconfig)
+- [EditorConfig](.editorconfig)
+- [GitIgnore](.gitignore)
 
 ## Setup Debian 10/11 machines
 
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/initial_setup.sh)"`
-
-#### Future goals / ToDo
-* [Timezone setting](https://linuxize.com/post/how-to-set-or-change-timezone-on-debian-10/)
-* Make Java and Cleanup Global commands through Initial setup
 
 ## Cleanup Debian 10/11 machines
 
