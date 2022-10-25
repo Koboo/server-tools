@@ -2,7 +2,7 @@
 
 ## Links
 * [Git Paper](docu/USEFUL_FOR_GIT.md)
-* [Install Dropbox](docu/INSTALL_DROPBOX.md)
+* [Dropbox Paper](docu/INSTALL_DROPBOX.md)
 * [Gradle Paper](docu/GRADLE.md)
 * [JDK17 Paper](docu/JDK17.md)
 * [Jarfix](docu/JAR_FIX.md)
