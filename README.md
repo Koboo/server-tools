@@ -1,13 +1,14 @@
 # // _Server Tools and Scripts_
 
 ## Links
-* [Git Paper](docu/USEFUL_FOR_GIT.md)
-* [Dropbox Paper](docu/INSTALL_DROPBOX.md)
-* [Gradle Paper](docu/GRADLE.md)
-* [JDK17 Paper](docu/JDK17.md)
-* [Jarfix](docu/JAR_FIX.md)
-* [Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
-* [Change Hostname](docu/CHANGE_HOSTNAME.md)
+- [Git Paper](docu/USEFUL_FOR_GIT.md)
+- [Dropbox Paper](docu/INSTALL_DROPBOX.md)
+- [Gradle Paper](docu/GRADLE.md)
+- [JDK17 Paper](docu/JDK17.md)
+- [Jarfix](docu/JAR_FIX.md)
+- [Bash Snippets](https://github.com/alexanderepstein/Bash-Snippets)
+- [Change Hostname](docu/CHANGE_HOSTNAME.md)
+- [WTFPL](http://www.wtfpl.net/about/)
 
 ## Files
 - [EditorConfig](.editorconfig)
