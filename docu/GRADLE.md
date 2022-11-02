@@ -39,11 +39,6 @@ test {
     useJUnitPlatform()
 }
 
-compileJava.options.encoding = 'UTF-8'
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
-}
-
 java {
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
@@ -51,6 +46,7 @@ java {
 
 tasks.withType(JavaCompile).configureEach {
     options.fork = true
+    options.encoding = 'UTF-8'
 }
 
 publishing {
