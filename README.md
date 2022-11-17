@@ -26,6 +26,10 @@
 
 `wget -qO- bench.sh | bash`
 
+## Check required MongoDB CPU Flags
+
+`bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/check_mongodb_cpu_flags.sh)"`
+
 ## Java Installation
 
 #### Script
