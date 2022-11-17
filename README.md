@@ -16,21 +16,40 @@
 
 ## Setup Debian 10/11 machines
 
+This script:
+- installs some default programms
+- adds my ssh-key to the authorization
+- changes the the authorization of ssh to keys, 
+- adds a optimized version of .bashrc
+- updates all packages
+- cleans up all packages
+
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/initial_setup.sh)"`
 
 ## Cleanup Debian 10/11 machines
+
+This script:
+- cleans up all packages
+- removes old packages
+- removes old kernels
 
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/clean_up.sh)"`
 
 ## Benchmark Debian 10/11 machines
 
+This script benchmarks the machine.
+
 `wget -qO- bench.sh | bash`
 
 ## Check required MongoDB CPU Flags
 
+This script checks the required "AVX" CPU Flags for MongoDB installations
+
 `bash -c "$(wget -O - https://raw.githubusercontent.com/Koboo/server-tools/main/scripts/check_mongodb_cpu_flags.sh)"`
 
 ## Java Installation
+
+This script is a utility script to manage, install and deinstall java instances
 
 #### Script
 
