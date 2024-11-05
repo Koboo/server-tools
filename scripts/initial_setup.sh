@@ -30,7 +30,7 @@ function Update {
 }
 
 function InstallPackages {
-    apt-get install molly-guard htop iftop parted tree vim curl screen neofetch net-tools byobu xinetd nload nano tcpdump sudo psmisc -y
+    apt-get install htop iftop parted tree curl screen neofetch net-tools byobu xinetd nload nano tcpdump sudo psmisc -y
 }
 
 function SetupNeofetch {
