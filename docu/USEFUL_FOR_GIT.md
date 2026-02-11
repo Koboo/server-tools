@@ -25,7 +25,7 @@ git config --global init.defaultBranch main
 ## Remove File from Git
 
 ```bash
-git rm --cached <name>
+git rm --cached -f -r <name>
 ```
 
 # Project-related User Credentials in commits
